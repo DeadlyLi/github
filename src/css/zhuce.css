@@ -1,0 +1,186 @@
+@import url("reset.css");
+@import url("base.css");
+@import url("common.css");
+.nav .menu ol {
+  display: none; }
+
+.zhuce {
+  width: 100%; }
+
+.zhuce_mian {
+  width: 980px;
+  margin: 0 auto;
+  clear: both; }
+
+.bd_top {
+  width: 980px;
+  height: 50px;
+  padding: 32px 0 0 0;
+  background-position: 0 22px;
+  background: url(img/client-new-bg.png) no-repeat 0 30px; }
+  .bd_top p {
+    width: 214px;
+    height: 20px;
+    background: url(img/hd.png) no-repeat 0 -20px; }
+  .bd_top .p_right {
+    width: 232px;
+    height: 22px;
+    float: right;
+    line-height: 22px;
+    color: #666; }
+
+.p_right a {
+  display: block;
+  float: right;
+  width: 60px;
+  height: 22px;
+  border: 1px solid #ccc;
+  background: #eee;
+  height: 22px;
+  text-align: center;
+  border-radius: 2px;
+  margin-right: 70px; }
+
+.bd {
+  width: 980px;
+  height: 403px;
+  padding: 45px 0 15px; }
+
+.bd_left {
+  width: 582px;
+  height: 343px; }
+
+.bd_right {
+  width: 320px;
+  height: 239px; }
+
+.bd_bom {
+  width: 980px;
+  height: 85px;
+  background: url(img/client-new-bg.png) no-repeat 0 -50px;
+  float: left; }
+
+.qq {
+  padding: 25px 0 0 30px; }
+  .qq h3 {
+    height: 25px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666; }
+
+.shejiao {
+  height: 26px; }
+  .shejiao a {
+    display: block;
+    float: left;
+    width: 65px;
+    height: 24px;
+    border: 1px solid #eee;
+    margin-right: 8px;
+    font-size: 14px;
+    padding-left: 30px;
+    line-height: 24px; }
+
+.aaa {
+  background: url(img/shejiao.png) no-repeat 5px 1px; }
+
+.bbb {
+  background: url(img/shejiao.png) no-repeat 5px -21px; }
+
+.ccc {
+  background: url(img/shejiao.png) no-repeat 5px -46px; }
+
+.ddd {
+  background: url(img/shejiao.png) no-repeat 5px -70px; }
+
+.eee {
+  background: url(img/alipay.png) no-repeat; }
+
+.username, .password, .password_R, .checkword, .botton {
+  min-height: 62px;
+  height: 62px;
+  width: 582px; }
+
+.bd_left label {
+  float: left;
+  height: 32px;
+  vertical-align: top; }
+  .bd_left label span {
+    float: left;
+    width: 130px;
+    height: 32px;
+    line-height: 32px;
+    padding-right: 16px;
+    text-align: right;
+    font-size: 14px; }
+
+.bd_left input {
+  width: 362px;
+  height: 32px;
+  border: 1px solid #ccc;
+  text-indent: 10px;
+  background: #ededed;
+  outline: none; }
+
+.bd_left .tip {
+  width: 582px;
+  height: 30px; }
+
+.bd_left .wrong {
+  height: 28px;
+  line-height: 28px;
+  width: 280px;
+  float: left;
+  color: #f00;
+  padding-left: 18px;
+  margin-left: 146px; }
+
+.true {
+  background: url(img/button.png) no-repeat 0 -235px; }
+
+.false {
+  background: url(img/button.png) no-repeat 0 -262px; }
+
+.input_false {
+  border: 1px solid #E5004F; }
+
+.checkword img {
+  width: 80px;
+  height: 32px;
+  border: 1px solid #eee;
+  vertical-align: top;
+  margin-right: 8px;
+  cursor: pointer; }
+
+.checkword input {
+  width: 230px;
+  margin-right: 12px; }
+
+.xieyi {
+  width: 582px;
+  height: 35px;
+  line-height: 35px; }
+  .xieyi input {
+    height: 13px;
+    width: 13px;
+    margin-left: 146px;
+    vertical-align: middle; }
+  .xieyi a, .xieyi span {
+    color: #666; }
+
+.button button {
+  width: 188px;
+  height: 34px;
+  background: url(img/button.png) repeat-x 0 0px;
+  border: 0;
+  border-radius: 4px;
+  margin-left: 146px;
+  line-height: 32px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #82002d;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px; }
+  .button button:hover {
+    background: url(img/button.png) repeat-x 0 -34px; }

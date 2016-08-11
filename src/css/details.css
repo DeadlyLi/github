@@ -1,0 +1,485 @@
+@charset "UTF-8";
+@import url("reset.css");
+@import url("base.css");
+@import url("common.css");
+/*---重置样式---*/
+.nav .menu ol {
+  display: none; }
+
+.box {
+  width: 100%;
+  background: #eeeeee; }
+
+.details {
+  width: 1190px;
+  margin: 0 auto; }
+  .details .details_top {
+    width: 1190px;
+    height: 46px; }
+  .details .details_mid {
+    width: 1190px;
+    margin-top: 10px;
+    overflow: hidden;
+    background: #f4f4f4; }
+    .details .details_mid .det_left {
+      width: 990px;
+      background: #fff; }
+    .details .details_mid .det_right {
+      width: 190px; }
+  .details .left_top {
+    width: 990px;
+    height: 30px;
+    background: #999999;
+    position: absolute; }
+    .details .left_top ul {
+      height: 30px;
+      width: 484px; }
+    .details .left_top li {
+      float: left;
+      line-height: 30px;
+      text-align: center;
+      width: 120px;
+      border-right: 1px solid #fff;
+      color: #fff;
+      cursor: pointer; }
+      .details .left_top li.tab {
+        background: #b7ab91; }
+    .details .left_top .s_dan {
+      position: relative;
+      width: 138px;
+      margin-left: 238px; }
+      .details .left_top .s_dan a {
+        display: block;
+        width: 138px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        color: #fff;
+        text-align: center; }
+  .details .s_dan .gongZH {
+    width: 138px;
+    height: 160px;
+    position: absolute;
+    background: #fff;
+    left: 0px;
+    top: 0;
+    display: none; }
+    .details .s_dan .gongZH img {
+      width: 110px;
+      margin: 10px 14px; }
+    .details .s_dan .gongZH p {
+      width: 138px;
+      height: 30px;
+      color: red;
+      line-height: 30px;
+      text-align: center;
+      font-size: 14px; }
+  .details .left_top .join_car a {
+    display: block;
+    width: 130px;
+    height: 30px;
+    background: url(img/join_car.png) no-repeat; }
+  .details .det_left dl {
+    width: 920px;
+    margin: 35px auto;
+    overflow: hidden; }
+    .details .det_left dl dt {
+      display: none; }
+      .details .det_left dl dt.jietu {
+        display: block; }
+  .details .details_bom {
+    background: #f4f4f4; }
+    .details .details_bom .word {
+      width: 1190px;
+      height: 48px;
+      border-bottom: 2px solid #000; }
+      .details .details_bom .word span {
+        display: block;
+        width: 80px;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        float: left; }
+      .details .details_bom .word em {
+        display: block;
+        width: 18px;
+        height: 18px;
+        float: right;
+        background: url(img/s_chu.png) no-repeat;
+        margin-right: 12px;
+        margin-top: 23px; }
+    .details .details_bom .connet {
+      padding: 20px 0; }
+
+.go_Top {
+  width: 31px;
+  height: 42px;
+  background: url(img/go-top-n.png) no-repeat;
+  position: fixed;
+  right: 5px;
+  bottom: 200px;
+  display: none; }
+  .go_Top:hover {
+    background: url(img/go-top-n.png) no-repeat 0 -42px; }
+
+/*放大镜部位样式*/
+.Magnifier {
+  width: 1190px;
+  height: 542px;
+  background: #fff; }
+  .Magnifier .pro_left {
+    z-index: 11;
+    position: relative;
+    padding: 20px 10px 10px 0;
+    width: 955px;
+    clear: both; }
+  .Magnifier .pro_right {
+    width: 225px;
+    height: 482px;
+    padding: 30px 0; }
+  .Magnifier .pro_left .word {
+    width: 500px;
+    float: right;
+    height: 341px;
+    font-size: 14px; }
+  .Magnifier h1 {
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 16px; }
+  .Magnifier .word .zhe {
+    color: #999;
+    font-size: 0;
+    margin-bottom: 30px;
+    cursor: default;
+    width: 500px; }
+    .Magnifier .word .zhe p {
+      height: 25px;
+      line-height: 25px;
+      vertical-align: middle;
+      font-size: 14px;
+      margin-bottom: 15px;
+      width: 500px; }
+  .Magnifier .zhe p span {
+    line-height: 25px;
+    font-size: 14px;
+    float: left; }
+  .Magnifier .zhe p strong {
+    color: #e5004f;
+    font-size: 24px;
+    vertical-align: baseline;
+    display: inline-block;
+    float: left;
+    font-weight: normal;
+    margin-right: 10px; }
+  .Magnifier .zhe p em {
+    background: #d4bd8a;
+    color: #fff;
+    width: 44px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 2px;
+    vertical-align: top;
+    display: inline-block;
+    font-style: normal;
+    float: left; }
+  .Magnifier .word .can {
+    line-height: 15px;
+    font-size: 14px;
+    margin: 12px 0; }
+  .Magnifier .can .cankao {
+    line-height: 15px;
+    padding: 5px 0; }
+    .Magnifier .can .cankao span {
+      text-decoration: line-through;
+      margin-right: 2px; }
+  .Magnifier .temai {
+    width: 495px;
+    background: #eff0f4;
+    padding: 5px 0 5px 4px;
+    color: #999;
+    font-size: 0;
+    margin-bottom: 10px; }
+    .Magnifier .temai .temai_bom {
+      padding: 2px 12px 2px 0;
+      font-size: 12px;
+      color: #666; }
+  .Magnifier .temai_bom span {
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 6px;
+    width: auto;
+    background: url(img/icon.png) no-repeat right 0;
+    vertical-align: top; }
+    .Magnifier .temai_bom span strong {
+      padding: 0 10px;
+      line-height: 20px;
+      display: inline-block;
+      height: 20px;
+      font-size: 12px;
+      color: #fff;
+      font-weight: normal;
+      float: left; }
+  .Magnifier .style {
+    width: 500px;
+    overflow: hidden; }
+    .Magnifier .style .style_bom {
+      font-size: 14px;
+      height: 135px;
+      width: 500px;
+      padding: 10px 0; }
+  .Magnifier .style_bom .st_main {
+    width: 475px;
+    height: 135px;
+    position: relative; }
+  .Magnifier .st_main .dl01 {
+    overflow: hidden;
+    width: 475px;
+    height: 45px;
+    float: left;
+    margin-top: 5px; }
+    .Magnifier .st_main .dl01 dt {
+      float: left;
+      color: #999;
+      line-height: 20px;
+      width: 100px; }
+    .Magnifier .st_main .dl01 dd {
+      float: left;
+      overflow: hidden;
+      width: 370px; }
+      .Magnifier .st_main .dl01 dd .block, .Magnifier .st_main .dl01 dd .white {
+        position: relative;
+        margin: 0 5px 5px 0;
+        display: inline-block; }
+      .Magnifier .st_main .dl01 dd .block b, .Magnifier .st_main .dl01 dd .white b {
+        position: absolute;
+        bottom: 6px;
+        right: 2px;
+        width: 10px;
+        height: 10px;
+        overflow: hidden;
+        background: #fff; }
+      .Magnifier .st_main .dl01 dd .block b.b, .Magnifier .st_main .dl01 dd .white b.b {
+        background: url(img/guo.png) no-repeat; }
+      .Magnifier .st_main .dl01 dd .block a, .Magnifier .st_main .dl01 dd .white a {
+        padding: 4px;
+        border: 1px solid #ccc;
+        display: inline-block;
+        white-space: nowrap;
+        height: 30px;
+        background: #fff;
+        cursor: pointer;
+        color: #000;
+        width: auto; }
+      .Magnifier .st_main .dl01 dd .block a:hover, .Magnifier .st_main .dl01 dd .white a:hover {
+        border: 1px solid #e5004f; }
+      .Magnifier .st_main .dl01 dd .block a.a, .Magnifier .st_main .dl01 dd .white a.a {
+        border: 2px solid #e5004f; }
+      .Magnifier .st_main .dl01 dd .block a img, .Magnifier .st_main .dl01 dd .white img {
+        height: 30px;
+        width: 22px;
+        border: 0;
+        float: left; }
+      .Magnifier .st_main .dl01 dd .block a span, .Magnifier .st_main .dl01 dd .white a span {
+        float: right;
+        display: block;
+        font-size: 8px;
+        color: #000;
+        height: 30px;
+        width: 24px;
+        line-height: 30px;
+        margin-left: 5px; }
+  .Magnifier .st_main .dl02 {
+    overflow: hidden;
+    width: 475px;
+    height: 30px;
+    float: left;
+    margin-top: 5px; }
+    .Magnifier .st_main .dl02 dt {
+      float: left;
+      color: #999;
+      line-height: 20px;
+      width: 100px; }
+      .Magnifier .st_main .dl02 dt span {
+        color: #999;
+        line-height: 20px; }
+    .Magnifier .st_main .dl02 .ddd {
+      width: 56px;
+      height: 25px;
+      background: url(img/junm.png) no-repeat;
+      margin-left: 100px; }
+  .Magnifier .f_left {
+    width: 90px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    margin-right: 10px; }
+    .Magnifier .f_left .num {
+      border: 0;
+      outline: none;
+      text-align: center;
+      height: 40px;
+      line-height: 40px;
+      width: 50px;
+      font-size: 20px;
+      float: left; }
+    .Magnifier .f_left .jia {
+      float: left;
+      width: 40px;
+      height: 40px;
+      background: #f6f6f6; }
+    .Magnifier .f_left i {
+      width: 40px;
+      height: 20px; }
+    .Magnifier .f_left .i01 {
+      background: url(img/shnag01.png) no-repeat center 6px; }
+      .Magnifier .f_left .i01:hover {
+        background: url(img/shang02.png) no-repeat center 6px; }
+    .Magnifier .f_left .i02 {
+      background: url(img/shang03.png) no-repeat center 4px; }
+      .Magnifier .f_left .i02:hover {
+        background: url(img/shang04.png) no-repeat center 4px; }
+  .Magnifier .f_mid {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #e5004f;
+    margin-right: 10px;
+    background: #e9bbca;
+    text-align: center;
+    line-height: 40px;
+    color: #e5004f;
+    font-size: 20px; }
+    .Magnifier .f_mid:hover {
+      background: pink; }
+  .Magnifier .f_right {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #e5004f;
+    background: url(img/cheche.png) no-repeat; }
+  .Magnifier .pro_left .bom {
+    float: right;
+    width: 500px;
+    margin: 20px 0;
+    background: #F0AD4E;
+    height: 30px; }
+  .Magnifier .pro_left .pic {
+    float: left;
+    width: 435px;
+    height: 512px; }
+  .Magnifier .pic .pic_top {
+    width: 328px;
+    margin: 0 auto;
+    height: 472px; }
+    .Magnifier .pic .pic_top .fdj {
+      height: 400px;
+      width: 300px;
+      margin: 0 auto;
+      position: relative; }
+      .Magnifier .pic .pic_top .fdj .big_pic {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        top: 0;
+        left: 320px;
+        z-index: 4;
+        overflow: hidden; }
+      .Magnifier .pic .pic_top .fdj .zhe_z {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        background: #CCCCCC;
+        opacity: 0.5;
+        left: 0;
+        top: 0;
+        cursor: pointer;
+        border: 1px solid #eee; }
+      .Magnifier .pic .pic_top .fdj .big_pic img {
+        height: 1066px;
+        width: 800px; }
+      .Magnifier .pic .pic_top .fdj .big_pic li {
+        height: 400px;
+        width: 400px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none; }
+      .Magnifier .pic .pic_top .fdj ul {
+        height: 400px;
+        width: 300px;
+        position: relative; }
+        .Magnifier .pic .pic_top .fdj ul li {
+          height: 400px;
+          width: 300px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          display: none; }
+      .Magnifier .pic .pic_top .fdj li.show {
+        display: block; }
+      .Magnifier .pic .pic_top .fdj ul img {
+        height: 400px;
+        width: 300px; }
+    .Magnifier .pic .pic_top .p_photos {
+      height: 62px;
+      margin-top: 10px;
+      width: 328px;
+      float: left;
+      overflow: hidden;
+      position: relative; }
+      .Magnifier .pic .pic_top .p_photos .small_pic {
+        height: 60px;
+        width: 288px;
+        position: absolute;
+        top: 0;
+        left: 25px;
+        overflow: hidden; }
+      .Magnifier .pic .pic_top .p_photos .move {
+        height: 60px;
+        width: 435px;
+        position: absolute;
+        left: 0;
+        top: 0; }
+        .Magnifier .pic .pic_top .p_photos .move dd {
+          width: 50px;
+          height: 55px;
+          border: 1px solid #e1e1e1;
+          float: left;
+          padding: 3px 0 0 10px;
+          margin-right: 10px;
+          z-index: 3; }
+          .Magnifier .pic .pic_top .p_photos .move dd.border {
+            border: 1px solid #333; }
+          .Magnifier .pic .pic_top .p_photos .move dd img {
+            width: 40px;
+            height: 53px; }
+  .Magnifier .p_photos .prev, .Magnifier .p_photos .next {
+    height: 60px;
+    width: 20px;
+    position: absolute;
+    top: 0; }
+  .Magnifier .p_photos .prev {
+    left: 0;
+    background: url(img/p01.png) no-repeat center; }
+    .Magnifier .p_photos .prev:hover {
+      background: url(img/p03.png) no-repeat center; }
+  .Magnifier .p_photos .next {
+    right: 0;
+    background: url(img/p02.png) no-repeat center; }
+    .Magnifier .p_photos .next:hover {
+      background: url(img/p04.png) no-repeat center; }
+  .Magnifier .pic .pic_bom {
+    height: 30px;
+    padding: 10px 0 0 54px;
+    width: 435px; }
+    .Magnifier .pic .pic_bom p {
+      color: #000;
+      float: left;
+      height: 30px;
+      line-height: 30px;
+      width: 150px;
+      font-size: 12px; }
+    .Magnifier .pic .pic_bom .sc {
+      height: 30px;
+      width: 167px;
+      background: url(img/sc.png) no-repeat; }

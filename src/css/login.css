@@ -1,0 +1,19 @@
+@import url("reset.css");
+@import url("base.css");
+@import url("common.css");
+@import url("zhuce.css");
+.bd_left input{
+	width: 292px;
+}
+.checkword input{
+	width: 172px;
+}
+.xieyi input{
+	width: 13px;
+}
+.password a{
+	color: #999;
+}
+.bd_top p{
+	background: url(img/hd.png) no-repeat;
+}

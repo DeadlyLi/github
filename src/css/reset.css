@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+/*重置样式*/
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, a,span,input{margin:0; padding:0;}
+fieldset,img{border:0;} 
+ul,li,ol{ list-style:none;}
+em i{font-style:normal}
+body{font-family: "\5fae\8f6f\96c5\9ed1";font-size:12px}
