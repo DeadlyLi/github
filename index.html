@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+*{paddind:0;margin:0}
+div{
+	border:1px solid #fff;
+	width:80px;
+	height:24px;
+	margin:2px;
+	line-height:24px;
+	text-align:center;
+	float:left;
+	font-size:16px;
+	font-family:"微软雅黑";
+	
+}
+span{
+	display:block;
+	clear:both;
+}
+</style>
+<script>
+var aColor = ["0","1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+
+for(var i=1;i<10;i++){
+	for(var j=1;j<=i;j++){
+		var sColor = "#";
+		var oColor = "#";
+		var oColor1 = "#"
+			for(var k=0;k<6;k++){
+				var rNum = Math.floor(Math.random()*aColor.length);
+				sColor += aColor[rNum];
+				var rNum = Math.floor(Math.random()*aColor.length);
+				oColor += aColor[rNum];
+				var rNum = Math.floor(Math.random()*aColor.length);
+				oColor1 += aColor[rNum];
+			}	
+		document.write("<div style='background:"+sColor+";color:"+oColor+";border-color:"+oColor1+";'>"+j+"*"+i+"="+i*j+"</div>" );
+				
+	}		
+	document.write("<span></span>");		
+}			
+		
+		
+		
+</script>	
+	
+
+
+
+</head>
+
+<body>
+</body>
+</html>
